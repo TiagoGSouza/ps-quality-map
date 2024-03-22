@@ -1,0 +1,1 @@
+# Desafio técnico do processo seletivo para a vaga de QA Júnior da QualityMap.
