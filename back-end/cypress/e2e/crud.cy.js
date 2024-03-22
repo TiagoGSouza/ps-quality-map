@@ -19,8 +19,7 @@ describe('Teste de API com base nas funcções CRUD', () => {
   it('POST - Cadastrar novo usuario', () => {
     cy.request({
       method: 'POST',
-      failOnStatusCode: false,
-      Headers: { accept: '/' },
+      headers: { accept: 'application/json' },
       url: 'https://serverest.dev/usuarios',
       body: {
         nome: "Nome Teste",
